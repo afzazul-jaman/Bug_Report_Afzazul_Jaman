@@ -95,9 +95,8 @@ openpyxl
 
 Install via:
 
-bash
-Copy code
 pip install pandas tabulate openpyxl
+
 ⚠️ Notes
 For large Excel files, opening in Excel is recommended to view full content.
 
