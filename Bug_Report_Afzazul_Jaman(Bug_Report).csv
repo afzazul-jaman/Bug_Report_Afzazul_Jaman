@@ -1,0 +1,102 @@
+Bug ID,Bug Title ,Steps to Reproduce,Expected Result,Actual Result,Severity ,Screenshot,
+BUG-001,Page Takes Too Long to Load After Reload,"1.Open the website homepage.
+
+2.Reload (refresh) the page.
+
+3.Observe how long it takes for all posts and elements to appear.",Website should load quickly (within 2–3 seconds) with visible content and posts appearing smoothly.,Website takes a long time to load after reload; posts and content appear with noticeable delay.,Medium,https://drive.google.com/file/d/1FRUR1DhGl8fxzLpLY1XuhhYRL33FZp3A/view?usp=sharing,
+BUG-002,Clicking on Search Bar Hides Adjacent Text or Elements,"1.Open the homepage.
+
+2.Click on the search bar in the header section.
+
+3.Observe the surrounding text or elements","Clicking on the search bar should only focus on the input field, keeping nearby text or elements visible and unchanged.","When the search bar is clicked, adjacent text or elements disappear or get hidden temporarily.",Medium,https://drive.google.com/file/d/1kNN52HW6X8UVrILaB1ZzAAFch-N4Xt5W/view?usp=sharing,
+BUG-003,Card Content Text Overflows Outside Card,"1.Open This Page : https://khagracharipratidin.com/
+
+2.Observe text inside the cards.","All text should remain inside the card boundaries, properly wrapped and readable.","Some text spills outside the card, breaking the card layout.",Medium,https://drive.google.com/file/d/17332Rp0J6_9w9ik-Fis7ham5NKD3x9_W/view?usp=sharing,
+BUG-004,"Posts and Text Sections Too Close, Insufficient Spacing","1.Open any page with multiple posts or text sections.
+
+2.Observe the spacing between consecutive posts or paragraphs.","Each post or text section should have adequate spacing/margin, making content easy to read and visually balanced.","Posts and text sections appear very close together, with no proper spacing, making the page look cluttered.",Medium,https://drive.google.com/file/d/1bsjOUQ7neY7uXDEloSsH1-IsTnjkifSa/view?usp=sharing,
+BUG-005,Post Alignment Inconsistent Across Page,"Open any page with multiple posts.
+
+Scroll and observe the alignment of posts.",All posts should be consistently aligned (left).,"Some posts are slightly shifted, misaligned compared to others.",Medium,https://drive.google.com/file/d/1P07e0RMhrubP5gTRsSt70GGwvK4UlWOC/view?usp=sharing,
+BUG-006,Text Overlay on Image Clipped at Top,"Open any page with image and overlay text (like featured posts).
+
+Observe the text on top of the image.","Overlay text should be fully visible, properly positioned with padding/margin from top of image.","Top part of the text is cut off or partially hidden, making it hard to read.",Medium,https://drive.google.com/file/d/1RoivFzlVkEZFE9Ua-HXVG5jgLjujIHcB/view?usp=sharing, 
+BUG-007,Advertisement Images Placed with Posts Are Not Clickable,"Open any page with posts and ads.
+
+Observe ads placed as images alongside posts.
+
+Try clicking on the ad images.",Ads should be clickable and redirect to the intended advertisement link.,"Ad images are static, cannot be clicked, and do not redirect anywhere.",High,https://drive.google.com/file/d/1U9tVAXNU2hNN-hzX5TmhziGg_Wz381to/view?usp=sharing,
+BUG-008,Some Posts and Content Are Missing on Page,"Open homepage or category pages.
+
+Scroll through the posts and content sections.
+
+Compare with expected total number of posts.",All posts and content should load and be visible as per the database or design.,"Some posts or content do not appear, leaving gaps in the page.",High,https://drive.google.com/file/d/1_9LHmXLpgSCLOts9KwX0nDyExXsq99tY/view?usp=sharing,
+BUG-009,Pagination Buttons Take Too Long to Load Next/Previous Page,"Open a page with multiple posts.
+
+Click on Next Page or Previous Page button.
+
+Observe how long it takes for the new page to load.",Clicking Next/Previous should load the page quickly (2–3 seconds max) and display posts.,"Page takes too long to load, sometimes appearing blank for several seconds.",High,https://drive.google.com/file/d/17XwuAOeDYJxb15jqHsWD8UGw4Pahdh1p/view?usp=sharing,
+BUG-010,Horizontal Divider Misplaced Below Text Instead of Between Image and Text,"Open any page with cards containing image and text.
+
+Observe the horizontal divider within a card.",Horizontal divider should be positioned between image and text inside the card.,"Divider appears below the text, breaking the intended layout.",Medium,https://drive.google.com/file/d/1C2fl50IiIGp-pa-Aqy8o0ar-jnfHymS1/view?usp=sharing,
+BUG-0011,Typographical Error in Dropdown Menu: “????” Should Be “???”,"Open the homepage.
+
+Hover or click on the navigation dropdown menu.
+
+Observe the menu items.",Dropdown should display correct spelling: “???”.,Dropdown shows incorrect spelling: “????”.,Low,https://drive.google.com/file/d/1CrbJINF5rDDCFsi_16dmpDTyIBJbLM9p/view?usp=sharing, 
+BUG-0012,Content Cards Not Visible on Page,"Open any page with content cards.
+
+Observe whether the cards appear on the page.","All content cards should be clearly visible, displaying images, text, and other elements as designed.","Cards are not visible, leaving blank spaces on the page.",High,https://drive.google.com/file/d/104r9tga4jW8p-gwYBSw2f6UHs9IvTfC4/view?usp=sharing,
+BUG-0013,Excessive Spacing Between Text Elements,"Open any page with multiple paragraphs or text sections.
+
+Observe the spacing between lines, paragraphs, or headings.","Text should have consistent and balanced spacing, making it easy to read.","Spacing between text elements is too large, affecting readability and visual balance.",Medium,https://drive.google.com/file/d/1LJsnpyDQVdJPogbIzCoIQGMK7w4Gsut8/view?usp=sharing,
+BUG-0014,Text Overflowing Outside Content Card,"Open any page with content cards.
+
+Observe the text inside the cards.","Text should remain inside the card boundaries, properly wrapped.","Text spills out of the card, breaking layout and affecting readability.",Medium,https://drive.google.com/file/d/1wklrlhrV43p-dOK06RYVJCiVmmbjaoKx/view?usp=sharing,
+BUG-0015,Posts Shift into Ad Space When Ads Are Removed,"Open any page with posts and advertisements.
+
+Remove/block ads  
+
+Observe the positioning of posts.","When ads are removed, posts should remain in their original position; layout should stay consistent.","Posts expand or shift into the space previously occupied by ads, breaking page layout.",Medium,https://drive.google.com/file/d/14F_IlJFHrlyvlKaYKurNw2qLm53hyH0M/view?usp=sharing,
+BUG-0016,Dropdown Links Intermittently Not Working,"Open homepage or any page with navigation dropdown.
+
+Hover/click on dropdown menu items.
+
+Try clicking on any link in the dropdown.",All dropdown links should be fully clickable and redirect to the intended page.,"Sometimes, dropdown links do not respond when clicked, requiring multiple attempts or page reload.",High,https://drive.google.com/file/d/1sq2Y569WK5q1Qd-IsAwOkVrcq2Mu_w16/view?usp=sharing,
+BUG-0017,Excessive Spacing Between Posts Creates Large Empty Area,"Open any page with multiple posts.
+
+Observe spacing between posts and overall page layout.","Posts should have consistent spacing, filling the page evenly without large empty gaps.","Posts are spaced too far apart, leaving a large empty area on one side of the page.",Medium,https://drive.google.com/file/d/1Wp6y-VaFqLe-dOJrQEdWmODDroT6ysgo/view?usp=sharing,
+BUG-0018,Hamburger Menu Overlays Half the Screen on Mobile,"Open the website on a mobile device or mobile view in browser.
+
+Tap the hamburger menu icon.","Hamburger menu should slide in smoothly, occupying only a sidebar-width portion of the screen, keeping main content accessible.","Menu expands to cover half the screen, blocking main content and making navigation cumbersome.",Medium,https://drive.google.com/file/d/1cXPmxC1VYtet1Ni0GyfCsO1NJLwY_f-R/view?usp=sharing,
+BUG-0019,Insufficient Spacing Between Content Sections on Mobile,"Open the website on a mobile device or mobile view in browser.
+
+Scroll through the page and observe content sections.","Each content section should have adequate spacing/margin, making the page visually balanced and easy to scroll.","Content sections are too close together, creating a very long and cluttered page.",Medium,https://drive.google.com/file/d/1Oidh8BjGpi1Cl3ylAOt2zJedWjBxp97A/view?usp=sharing,
+BUG--0020,Card Images Misaligned or Clustered on One Side in Mobile View,"Open the website on a mobile device or mobile view in browser.
+
+Scroll through pages with content cards.
+
+Observe the placement of card images.","All card images should be properly aligned inside their respective cards, maintaining consistent spacing and layout.","Some card images are clustered on one side or overlapping, breaking the intended card layout.",Medium,https://drive.google.com/file/d/1TBEKfm5uh8KJuBc2UrjMpAwSyJ_ZbDsk/view?usp=sharing,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
