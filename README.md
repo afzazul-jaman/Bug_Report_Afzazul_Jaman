@@ -103,4 +103,8 @@ For large Excel files, opening in Excel is recommended to view full content.
 The executable depends on the CSV being available in the same folder or a valid path.
 
 The project is optimized for Windows environments.
+`````
 
+<img width="1640" height="564" alt="image" src="https://github.com/user-attachments/assets/cef1171a-000b-4fee-bb80-777ecb05e09b" />
+# exe
+<img width="1478" height="972" alt="image" src="https://github.com/user-attachments/assets/7fb22d03-dfb8-4ae0-9523-d14dd8bdfeeb" />
